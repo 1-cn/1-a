@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Football Shoes Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1, .about {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .about {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+      line-height: 1.6;
+    }
+    .shoes-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .shoe-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+    }
+    .shoe-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .shoe-card h2 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .shoe-card p {
+      margin: 10px 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+    .buy-button:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+  <h1>Football Shoes for Sale</h1>
+  <div class="about">
+    Welcome to our football shoe store! We provide high-quality football boots from leading brands like Nike, Puma, and Adidas. Whether you're a professional or just starting out, our selection is perfect for improving your performance on the pitch.
+  </div>
+  <div class="shoes-container">
+    <div class="shoe-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSXdFA1JyXKk0n0I2rnVtQnEzx4axwsGw-Q&s" alt="Nike Phantom GX" />
+      <h2>Nike Phantom GX Elite</h2>
+      <p>Designed for precision and agility, the Phantom GX is a top choice for attacking players.</p>
+      <p class="price">$249.99</p>
+      <a class="buy-button" href="purchase.html">Buy Now</a>
+    </div>
+    <div class="shoe-card">
+      <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/107163/01/sv01/fnd/PNA/fmt/png/FUTURE-Ultimate-FG-AG-Men's-Soccer-Cleats" alt="Puma Future Ultimate" />
+      <h2>Puma Future Ultimate</h2>
+      <p>The Future Ultimate offers adaptive fit and superior control, perfect for dynamic playmakers.</p>
+      <p class="price">$199.99</p>
+      <a class="buy-button" href="#">Buy Now</a>
+    </div>
+    <div class="shoe-card">
+      <img src="https://www.adidas.ca/dis/dw/image/v2/bfsg_prd/on/demandware.static/-/Sites-adidas-products/default/dw9bba84cd/zoom/IG7744_00_standard.jpg?sw=500&sh=500&sm=fit" alt="Adidas Predator Accuracy" />
+      <h2>Adidas Predator Accuracy</h2>
+      <p>Engineered for power and accuracy, the Predator is ideal for long-range shooters and playmakers.</p>
+      <p class="price">$219.99</p>
+      <a class="buy-button" href="#">Buy Now</a>
+    </div>
+  </div>
+</body>
+</html>
